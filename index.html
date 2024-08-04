@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="section">
+        <h1>Password Generator</h1>
+        <div class="container">
+            <div class="row">
+                <div class="input">
+                    <input type="text" id="pswd" placeholder="  Password">
+                    <i id="copy" class="fa-regular fa-copy"></i>
+                </div>
+                <div class="row">
+                    <label for="">Password Length</label><br>
+                    <input type="range" min="6" max="20" value="10" class="len">
+                    <span class="len-number">10</span>
+                </div>
+                <div class="row">
+                    <button type="submit" class="btn-1">Generate Password</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
